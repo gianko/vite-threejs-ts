@@ -11,12 +11,11 @@ const sizes = {
 }
 
 const onResize = () => {
-  console.log('RESIZE')
   sizes.height = window.innerHeight
   sizes.width = window.innerWidth
 
   camera.aspect = sizes.width / sizes.height
-  camera.updateMatrix()
+  camera.updateProjectionMatrix()
 
   renderer.setSize(sizes.width, sizes.height)
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
