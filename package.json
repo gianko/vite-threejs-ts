@@ -16,6 +16,7 @@
   "license": "Unlicense",
   "devDependencies": {
     "@ehutch79/vite-eslint": "^0.0.1",
+    "@types/dat.gui": "^0.7.7",
     "@types/lodash.debounce": "^4.0.6",
     "@types/three": "^0.130.0",
     "@typescript-eslint/eslint-plugin": "^4.28.3",
@@ -30,6 +31,7 @@
     "vite-plugin-string": "^1.0.1"
   },
   "dependencies": {
+    "dat.gui": "^0.7.7",
     "lodash.debounce": "^4.0.8",
     "normalize.css": "^8.0.1",
     "three": "^0.130.1"
